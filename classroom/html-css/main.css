@@ -109,7 +109,7 @@ a[href*=Youtube]{
 
  } */
 
-.mec{
+/* .mec{
     width: 200px;
     height: 200px;
     border: 5px solid rgb(35, 193, 255);
@@ -127,4 +127,39 @@ a[href*=Youtube]{
 
 
 
+ */
+ .body{
+    position: relative;
+ }
 
+ .box{
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+    height: 90vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    /* font-style: italic;
+    /* color: red; */
+    /* text-transform: capitalize; */
+    /* text-decoration-line:line-through ; */
+    /* text-decoration-thickness: 5px ; */
+    /* text-decoration-color: red ; */
+     /* text-decoration-style: wavy ;sax karanq grenq mi toxov */
+    /* text-underline-offset: 1px;  */
+    /* line-height: 5; */
+    /* white-space: nowrap; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 20px; */
+
+
+
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQu6C1bRrSfinxYCtlNpmLFhXCxdCp6fu5og&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+ 
+ } 

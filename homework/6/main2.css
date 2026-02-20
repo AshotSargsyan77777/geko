@@ -6,7 +6,7 @@
     aspect-ratio: 1/1;
     
     position: relative;
-    background-color: black; 
+    background-color: rgb(255, 255, 255); 
 }
 
 
@@ -15,6 +15,7 @@
     height: 50%;       
     position: absolute;
     background-color: rgb(255, 255, 255); 
+    border: 5px solid;
 }
 
 .klor1 {
