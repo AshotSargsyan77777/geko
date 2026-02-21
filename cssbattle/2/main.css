@@ -1,0 +1,39 @@
+.contanier{
+    width: 400px;
+    height: 300px;
+    
+    background-color: #5d3a3a;
+    position: relative;
+}
+.box1{
+    aspect-ratio: 1/1;
+    background-color: #fdc57b;
+    width: calc(100% * 1/7);
+    position: absolute;
+    top: calc(100% * 1/6) ;
+    right: calc(100% * 3/4);
+}
+.box2{
+    aspect-ratio: 1/1;
+    background-color: #fdc57b;
+    width: calc(100% * 1/7);
+    position: absolute;
+    top: calc(100% * 1/6) ;
+    right: calc(100% * 1/7);
+}
+.box3{
+    aspect-ratio: 1/1;
+    background-color: #fdc57b;
+    width: calc(100% * 1/7);
+    position: absolute;
+    top: calc(100% * 3/5) ;
+    right: calc(100% * 3/4);
+}
+.box4{
+    aspect-ratio: 1/1;
+    background-color: #fdc57b;
+    width: calc(100% * 1/7);
+    position: absolute;
+    top: calc(100% * 3/5) ;
+    right: calc(100% * 1/7);
+}

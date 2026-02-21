@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+.contanier{
+    aspect-ratio: 1/1;
+    
+    height: 70vmin;
+    position: relative;
+    
+
+
+
+}
+.klor1{
+    width: calc(100% * 1/2);
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+.klor2{
+    width: calc(100% * 1/2);
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+
+}
+.klor3{
+    width: calc(100% * 1/2);
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.klor4{
+    width: calc(100% * 1/2);
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+}
+
+.karmir1{
+    aspect-ratio: 1/1;
+    width: calc(100% * 1/2);
+    border: 3px solid black;
+    border-radius: 100%  0 100% 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+
+}
+
+.karmir2{
+    aspect-ratio: 1/1;
+    width: calc(100% * 1/2);
+    border: 3px solid black;
+    border-radius: 0  100% 0 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+
+}
+.karmir3{
+    aspect-ratio: 1/1;
+    width: calc(100% * 1/2);
+    border: 3px solid black;
+    border-radius:  0  100% 0 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+
+}
+.karmir4{
+    aspect-ratio: 1/1;
+    width: calc(100% * 1/2);
+    border: 3px solid black;
+    border-radius: 100%  0 100% 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+
+}

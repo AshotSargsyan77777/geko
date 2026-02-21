@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.contanier{
+    width: 400px;
+    height: 300px;
+    
+    background-color: #5d3a3a;
+    position: relative;
+}
+.box{
+    aspect-ratio: 1/1;
+    background-color: #b5e0ba;
+    width: calc(100% * 1/2);
+
+
+}
