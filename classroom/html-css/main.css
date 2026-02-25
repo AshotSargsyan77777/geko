@@ -164,7 +164,7 @@ a[href*=Youtube]{
  
  }  */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -209,11 +209,11 @@ a[href*=Youtube]{
 .f3{
     order: 3;
  }
-
-
 .f4{
     order:5 ;
  }
 .f5{
     order: 4 ;
- }
+ } */
+
+ 
