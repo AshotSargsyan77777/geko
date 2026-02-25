@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#ffffff;
+  font-family:Roboto, sans-serif;
+}
+
+.container{
+  width:100%;
+  
+}
+
+.wrap{
+  background:#1f242d;
+  padding:25px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  color:white;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+.navbar{
+  display:flex;
+  gap:40px;
+  margin:0 auto;   
+}
+
+.link{
+  color:white;
+  
+}
+
+.btn{
+  background:#1da1b9;
+  color:white;
+  border:none;
+  padding:10px 25px;
+  border-radius:20px;
+}

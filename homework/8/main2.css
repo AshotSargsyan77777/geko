@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+.contanier{
+    width: 100%;
+    margin: auto;
+   
+}
+.wrap{
+    background: rgb(41, 41, 109);
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
