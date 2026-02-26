@@ -10,23 +10,21 @@ body {
     display: flex;
     align-items: center;
     padding: 15px 40px;
-   
-    gap: 30px;
+    
 }
 
 .logo {
     color: white;
     font-weight: 900;
     text-transform: uppercase;
-    
-    order: 3; 
-    margin-left: auto; 
+    font-size: 18px;
+    margin-right: auto; 
 }
 
 .navbar {
     display: flex;
     gap: 30px;
-    order: 1; 
+    margin-right: 30px; 
 }
 
 .link {
@@ -42,5 +40,4 @@ body {
     padding: 10px 25px;
     border-radius: 25px;
     
-    order: 2; 
 }
