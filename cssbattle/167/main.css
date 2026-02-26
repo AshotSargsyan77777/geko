@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contanier{
+    width: 400px;
+    height: 300px;
+    background: #0D1335;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape{
+    width: calc(100% * 5/6);
+    height:calc(100% * 1/4) ;
+    border: 10px solid;
+    border-radius: 50%;
+
+}
