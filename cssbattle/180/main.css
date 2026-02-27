@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contanier{
+    width: 400px;
+    height: 300px;
+    border-width:100px 0 100px 120px ;
+    border-style:solid ;
+    border-color:#13AA4B  transparent #EC1E25 #000000 ;
+
+}
