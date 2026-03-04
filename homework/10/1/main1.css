@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contanier{
+    background: #1e1e1e;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px ;
+    gap: 20px;
+    width: 680px;
+    height:260px ;
+}
+
+.box1{
+    background-color: #ff5c5c;
+
+}
+.box2{
+    background-color: #f77f5a;
+    
+}
+.box3{
+    background-color: #f4a261;
+    
+}
+.box4{
+    background-color: #16a085;
+    
+}
+.box5{
+    background-color: #2eb398;
+    
+}
+.box6{
+    background-color: #48c9b0;
+    
+}

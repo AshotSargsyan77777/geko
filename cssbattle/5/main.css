@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.circle1{
+.circle3{
     aspect-ratio: 1/1;
     width: calc(100% * 1/3);
     background: #F3AC3C;
@@ -31,7 +31,7 @@
     
 
 }
-.circle3{
+.circle1{
     aspect-ratio: 1/1;
     width: calc(100% * 1/3);
     background: #F3AC3C;

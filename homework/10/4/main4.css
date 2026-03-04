@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 100px 120px 60px ;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px;
+    gap: 15px;
+    
+}
+
+.box1{
+    background-color: #f77f5a ;
+    grid-column:span 3 ;
+}
+
+.box2{
+    background-color: #ff5c5c;
+    grid-column: span 3;
+}
+
+.box3{
+    background-color:#16a085 ;
+    grid-column: span 2;
+}
+.box4{
+    background-color:#48c9b0 ;
+    grid-column: span 4;
+}
+
+.box5{
+    background-color:#f4a261 ;
+    grid-column: span 6;
+}
