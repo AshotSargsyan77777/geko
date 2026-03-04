@@ -217,3 +217,42 @@ a[href*=Youtube]{
  } */
 
  
+ 
+ /* .container{
+   height:90vh ;
+   width: 90vh;
+   
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(6, 1fr);
+   gap: 10px;
+}
+
+.g{
+    border-radius: 10px;
+    background-color: rgba(33, 45, 214, 0.705);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g12{
+    grid-column: span 12;
+
+}
+.g6{
+    grid-column: span 6;
+}
+.g4{
+    grid-column: span 4;
+}
+.g3{
+    grid-column: span 3;
+}
+.g2{
+    grid-column: span 2;
+}
+.g1{
+    grid-column: span 1;
+}
+   
+     */
