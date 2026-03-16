@@ -34,7 +34,7 @@
     --radius-1: 8px;
     --radius-2: 12px;
     --radius-3: 16px;
-    --radius-1: 24px;
+    --radius-4: 24px;
     --radius-full: calc(infinity * 1px);
 
     /* Transition */
@@ -56,10 +56,92 @@ html{
 
 body{
     font-family: var(--font-family-main);
+    color: var(--color-neutral-1);
 }
 
 a{
     text-decoration: none;
     color: inherit;
     display: inline-block;
+}
+
+
+
+ul,ol{
+    list-style: none;
+}
+
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+
+
+.header{
+    height: 48px;
+    
+}
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    
+}
+
+.header_logo{
+    height: 50%;
+}
+.header_logo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+    object-position: center;
+
+}
+.header_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.header_navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.header_navitem{
+    font-weight: 500;
+    font-size: var(--font-size-3);
+
+}
+.header_auth{
+    display: flex;
+    align-items: center;
+
+
+}
+.header_auth_btn{
+    padding: 8px 24px;
+    font-size: var(--font-size-3);
+
+
+}
+
+.header_auth_btn:nth-of-type(2){
+    background: var(--color-primary);
+    color: var(--color-neutral-7);
+    border-radius: var(--radius-1);
+    
 }
