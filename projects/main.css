@@ -11,17 +11,21 @@
     --color-neutral-6:#D9D9D9;
 
 
+   --font-family-main : 'Lato', sans-serif;
 
 
 
     /* font-sizes */
 
-    --font-size-1:15px;
-    --font-size-1:20px;
-    --font-size-1:26px;
-    --font-size-1:33px;
-    --font-size-1:43px;
-    --font-size-1:56px;
+    --font-size-1: 12px;
+    --font-size-2: 14px;
+    --font-size-3: 16px;
+    --font-size-4: 18px;
+    --font-size-5: 20px;
+    --font-size-6: 24px;
+    --font-size-7: 38px;
+    --font-size-8: 48px;
+    --font-size-9: 64px;
 
 
      /* Transition */
@@ -70,11 +74,12 @@ ul,ol{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    font-size: var(--font-size-3);
 
 
 }
 .header_logo{
-    height: 50%;
+    height: 100%;
 }
 .header_logo > img {
     width: 100%;
@@ -94,8 +99,88 @@ ul,ol{
     justify-content: end;
     align-items: center;
     gap: 40px;
+    font-family: var(--font-family-main);
 }
 .header_nav_item{
     font-weight: 500;
 
+}
+
+
+.hero{
+    min-height: 100vh;
+    background: url(./img/car.png) no-repeat right 0 / auto 70%;
+}
+
+
+.hero_wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 130px 0 ;
+}
+
+.hero_block {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+}
+
+
+.hero_title{
+    font-size: var(--font-size-9);
+    color: var(--color-neutral-4);
+    font-weight: 700;
+    line-height: 120%;
+    font-family: var(--font-family-main);
+}
+
+.hero_text{
+    font-size: var(--font-size-5);
+    color: var(--color-neutral-5);
+     font-weight: 300;
+    line-height: 120%;
+    font-family: var(--font-family-main);
+
+}
+
+.hero_btns{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+.hero_search{
+    padding: 20px 35px;
+    background: var(--color-primary);
+    color: #ffffff;
+    font-family: var(--font-family-main);
+
+}
+
+.hero_search:last-child{
+    background: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.brands{
+    
+    padding: 0 0 50px 0;
+    margin-top: -130px;
+}
+
+.brands_wrap{
+    
+    opacity: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
 }
