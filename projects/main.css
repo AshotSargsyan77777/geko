@@ -9,6 +9,8 @@
     --color-neutral-4:#595959;
     --color-neutral-5:#737373;
     --color-neutral-6:#D9D9D9;
+    --color-neutral-7:#A6A6A6;
+    --color-neutral-8:#F2F2F2;
 
 
    --font-family-main : 'Lato', sans-serif;
@@ -183,4 +185,162 @@ ul,ol{
     justify-content: space-between;
     align-items: center;
     gap: 80px;
+}
+
+
+/* .rent_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  
+}
+
+.rent_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+
+.rent_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.rent_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.rent_eyebrow{
+    color: var(--color-neutral-2);
+    font-size: var(--font-size-5);
+    font-weight: 700;
+    font-style: bold;
+    font-family: var(--font-family-main);
+
+}
+.rent_head{
+    color: var(--color-neutral-5);
+    font-family: var(--font-family-main);
+    font-size:var(--font-size-8);
+    font-weight: 500;
+
+}
+.rent_text{
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    color: var(--color-neutral-7);
+    font-size: var(--font-size-3);
+
+}
+.rent_group{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.rent_card{
+
+}
+.rent_img{
+    background-color: var(--color-neutral-8);
+
+}
+
+.rent_info {
+    padding: 0 20px; /* Ձախից և աջից 20px տարածություն */
+}
+.rent_brand{
+    color: var(--color-neutral-5);
+    font-weight: 500;
+    font-size: var(--font-size-6);
+    font-family: var(--font-family-main);
+
+}
+.rent_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    color: var(--color-neutral-7);
+
+
+
+}
+.rent_price{
+    font-weight: 400;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-3);
+    
+}
+.price_bold{
+    font-size: var(--font-size-7);
+    color:var(--color-neurtal-3);
+    font-weight: 900;
+    font-family: var(--font-family-main);
+
+
+    
+}
+
+
+.rent_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    color: var(--color-primary);               
+    border: 2px solid var(--color-primary);    
+    padding: 10px 20px;
+
+ 
+    font-weight: 600;
+   
+    transition: 0.3s;
+}
+
+
+.rent_card:first-child .rent_btn {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+
+.rent_card:hover .rent_btn {
+    background-color: var(--color-primary) ;
+    color: white ;
+}
+
+
+
+
+.rent_group:has(.rent_card:not(:first-child):hover) .rent_card:first-child .rent_btn {
+    background-color: transparent ;
+    color: var(--color-primary) ;
+}
+
+.rent_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.see_all_btn{
+    padding: 20px 35px;
+    background-color: var(--color-primary);
+    color: white;
+    font-family: var(--font-family-main);
+    font-weight: 700;
+    font-size: var(--font-size-3);
 }
