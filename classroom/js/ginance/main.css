@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #222;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.balance, .count {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.count {
+    top: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 48px;
+    color: #eee;
+}
+
+.price {
+    padding: 50px;
+    font-size: 36px;
+    color: #ccc;
+}
+
+.currency {
+    font-size: 0.5em;
+    padding: 0 5px;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.buy {
+    background: #0c0;
+}
+
+.sell {
+    background: #c00;
+}
+
+.chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 200px;
+    width: 600px;
+    margin-top: 30px;
+    border-bottom: 2px solid #555;
+}
+
+.bar {
+    width: 4px;
+    transition: 0.3s;
+}
