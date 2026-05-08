@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <h2>Իմ ուսման պլանը</h2>
+    <table border="1">
+        <tr>
+            <th>Առարկա</th>
+            <th>Ժամանակացույց</th>
+            <th>Նպատակ</th>
+        </tr>
+        <tr>
+            <td>Մաթեմատիկա</td>
+            <td>Կիրակի, 10:00-12:00</td>
+            <td>Համալիր խնդիրներ</td>
+        </tr>
+        <tr>
+            <td>Ծրագրավորում</td>
+            <td>Երկուշաբթի, 14:00-16:00</td>
+            <td>Վարժություններ C++-ով</td>
+        </tr>
+        <tr>
+            <td>Անգլերեն</td>
+            <td>Չորեքշաբթի, 11:00-12:30</td>
+            <td>Խոսքի վարժանքներ</td>
+        </tr>
+        <tr>
+            <td>Ֆիզիկա</td>
+            <td>Ուրբաթ, 13:00-15:00</td>
+            <td>Թեորիա և լաբորատոր աշխատանքներ</td>
+        </tr>
+    </table>
+
+    <h2>Հետադարձ կապի ֆորմա</h2>
+    <form>
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+
+        <label for="country">country</label>
+        <select id="country" name="country">
+            <option value="">select country</option>
+            <option value="armenia">Armenia</option>
+            <option value="russia">Russia</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+
+        
+        <label>interest</label>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="math" name="interest" value="math">
+        <label for="math">Մաթեմատիկա</label>
+        <input type="checkbox" id="Sport" name="interest" value="Sport">
+        <label for="Sport">Sport</label><br><br>
+
+        
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        
+        <label for="message">message</label><br>
+        <textarea id="message" name="message" placeholder="Մուտքագրեք հաղորդագրությունը այստեղ"></textarea><br><br>
+
+        
+        <input type="submit" value="submit">
+    </form>
+    <a href="about.html">about.html</a><br>
+    <a href="index.html">index.html</a>
+
+</body>
+</html>

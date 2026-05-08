@@ -246,16 +246,14 @@ ul,ol{
     justify-content: space-between;
 
 }
-.rent_card{
 
-}
 .rent_img{
     background-color: var(--color-neutral-8);
 
 }
 
 .rent_info {
-    padding: 0 20px; /* Ձախից և աջից 20px տարածություն */
+    padding: 0 20px; 
 }
 .rent_brand{
     color: var(--color-neutral-5);

@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 22, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100px;
+    height: 280px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #444;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.light{
+    background-color: #222;
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.red{
+    animation: red-logic 12s infinite;
+}
+
+@keyframes red-logic {
+    0%, 41.6% { 
+        background-color: #ff0000;
+        box-shadow: 0 0 30px #ff0000;
+    }
+    41.7%, 100% {
+        background-color: #440000;
+        box-shadow: none;
+    }
+}
+
+
+.yellow {
+    animation: yellow-logic 12s infinite;
+}
+
+@keyframes yellow-logic {
+    0%, 33.2% { 
+        background-color: #444400;
+        box-shadow: none; 
+    } 
+    33.3%, 41.6% { 
+        background-color: #ffcc00;
+        box-shadow: 0 0 30px #ffcc00;
+    }
+    41.7%, 83.2% { 
+        background-color: #444400; 
+        box-shadow: none; 
+    } 
+    83.3%, 100% { 
+        background-color: #ffcc00;
+        box-shadow: 0 0 30px #ffcc00;
+    }
+}
+
+
+.green {
+    animation: green-logic 12s infinite;
+}
+
+@keyframes green-logic {
+    0%, 41.6% { 
+        background-color: #004400; 
+        box-shadow: none; 
+    } 
+    41.7%, 66.6% { 
+        background-color: #00ff00;
+        box-shadow: 0 0 30px #00ff00;
+    }
+    
+    70%, 75%, 80% { 
+        background-color: #00ff00; 
+        box-shadow: 0 0 30px #00ff00; }
+    68%, 73%, 78%, 83.2% { 
+        background-color: #004400; 
+        box-shadow: none; 
+    }
+    
+    83.3%, 100% { 
+        background-color: #004400;
+        box-shadow: none; 
+    } 
+}

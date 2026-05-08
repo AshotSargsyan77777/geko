@@ -2,6 +2,8 @@
 //     for(let j = 1; j  <= 10; j++){
 //         console.log(i + " x " + j + " = " + (i * j));
 
+// const { createElement } = require("react")
+
 //     }
 //     console.log("-----------")
 
@@ -147,6 +149,29 @@
 
 
 
+// function give(tiv1, tiv2){
+//     return tiv1 + tiv2
+
+// }
 
 
+// console.log(give(5,2))
 
+
+// let num = Math.floor(Math.random() *100 +1 )
+// console.log(num)
+
+
+const btn = document.createElement("button")
+btn.textContent("Sexmi")
+
+
+const p = createElement("p")
+
+
+btn.addEventListener("click", () =>{
+    p.textContent = "es chem sovorum js "
+})
+
+document.body.prepend(p)
+document.body.prepend(btn)

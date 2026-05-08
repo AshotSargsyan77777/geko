@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier{
+    padding: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 15px;
+
+}
+
+.box1{
+
+    background-color:#16a085;
+
+}
+.box2{
+
+    background-color:#f77f5a;
+
+}
+.box3{
+
+    background-color: #48c9b0;
+
+}
+.box4{
+
+    background-color: #ff5c5c;
+
+}
+.box5{
+
+    background-color: #48c9b0;
+
+}
+.box6{
+
+    background-color: #f77f5a;
+
+}

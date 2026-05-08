@@ -1,0 +1,98 @@
+/* *{
+    box-sizing: border-box;
+}
+.box {
+    height: 400px;
+    aspect-ratio: 1/1;
+    
+    position: relative;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.klor1, .klor2, .klor3, .klor4 {
+    width: 50%;          
+    height: 50%;       
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    border: 5px solid;
+}
+
+.klor1 {
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 100%; 
+}
+
+.klor2 {
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 100%;  
+}
+
+.klor3 {
+    left: 0;
+    bottom: 0;
+    border-top-right-radius: 100%;   
+}
+
+.klor4 {
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;    
+} */
+*{
+    box-sizing: border-box;
+
+ }
+.contanier{
+    aspect-ratio:1/1 ;
+    
+    height: 90vmin;
+    position: relative;
+
+}
+.klor1{
+    aspect-ratio: 1/1;
+    border: 2px solid ;
+    border-radius: 50%;
+    height: calc(100% * 1/2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 100% 0;
+    border-color: white black black white;
+}
+.klor2{
+    aspect-ratio: 1/1;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    height: calc(100% * 1/2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 100%;
+    border-color: white white black black;
+}
+.klor3{
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: calc(100% * 1/2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius:  0 100% 0 0;
+    border-color: black black white white;
+}
+.klor4{
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: calc(100% * 1/2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 100% 0 0 0;
+    border-color: black white white black;
+}

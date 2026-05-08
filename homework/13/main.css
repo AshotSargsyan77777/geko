@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-size: 60px;
+    aspect-ratio: 1/1;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    position: relative;
+}
+
+
+.white{
+    background-color:#F0D9B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black{
+    background-color:#B58863;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white:not(:empty),
+.black:not(:empty){
+    cursor: grab;
+}
+
+
+.white:not(:empty):active,
+.black:not(:empty):active{
+    cursor: grabbing;
+}
+
+
