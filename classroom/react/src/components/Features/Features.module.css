@@ -1,0 +1,125 @@
+.featuresContainer {
+  background-color: #111111;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 6rem 6%;
+  overflow: hidden;
+}
+
+/* Աջ կողմի ֆոնային նկարի էֆեկտը (մոտավորապես 30% լայնությամբ) */
+.rightBgOverlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  background-image: linear-gradient(to right, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0.2)), 
+                    url('https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sideText {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  color: #333333;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  z-index: 2;
+}
+
+.contentWrapper {
+  width: 100%;
+  max-width: 1200px;
+  z-index: 2;
+}
+
+.sectionTitle {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: -0.5px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.featureCard {
+  background-color: rgba(22, 22, 22, 0.7);
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.featureCard:hover {
+  border-color: #2a2a2a;
+  transform: translateY(-2px);
+}
+
+.iconWrapper {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(135deg, #00c2e0 0%, #0076a8 100%);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 194, 224, 0.25);
+}
+
+.iconWrapper svg {
+  width: 30px;
+  height: 30px;
+}
+
+.featureTitle {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.featureDescription {
+  color: #888888;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive հարմարեցումներ հեռախոսների և պլանշետների համար */
+@media (max-width: 968px) {
+  .featuresGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .featureCard {
+    padding: 2rem;
+  }
+
+  .rightBgOverlay, .sideText {
+    display: none;
+  }
+}

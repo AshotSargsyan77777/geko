@@ -1,0 +1,41 @@
+.btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary {
+  background-color: #00c2e0;
+  color: #000000;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #00a0ba;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #333333;
+}
+
+.secondary:hover {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.navBtn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 0.5rem 1.5rem;
+}
+
+.navBtn:hover {
+  border-color: #ffffff;
+}
