@@ -1,0 +1,108 @@
+.categoriesContainer {
+  background-color: #111111;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 5rem 6%;
+  overflow: hidden;
+}
+
+.sideText {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  color: #333333;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+}
+
+.contentWrapper {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  z-index: 2;
+}
+
+.sectionTitle {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  letter-spacing: -0.5px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+.card {
+  background-color: #161616;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #333333;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 320px; /* Ֆիքսված բարձրություն նկարների համաչափության համար */
+  overflow: hidden;
+  background-color: #0d0d0d;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.04);
+}
+
+.cardFooter {
+  padding: 1.5rem;
+  text-align: left;
+  background-color: #161616;
+}
+
+.cardTitle {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Մոբայլ սարքերի համար (Responsive) */
+@media (max-width: 968px) {
+  .cardsGrid {
+    grid-template-columns: 1fr; /* Բոլոր քարտերը դառնում են իրար տակ */
+    gap: 2rem;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .sideText {
+    display: none;
+  }
+}
