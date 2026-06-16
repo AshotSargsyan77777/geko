@@ -58,3 +58,66 @@
 #     price = int(price * 0.90)
 
 # print(price)
+
+
+
+
+
+
+# Խնդիր 6
+
+
+
+# wins = int(input("Wins:"))
+# draws = int(input("Draws:"))
+
+
+# print(wins * 3 + draws)
+
+
+
+
+
+
+
+# Խնդիր 7
+
+# distance = int(input("Distance:"))
+# fuel = int(input("fuel"))
+
+# print(distance * fuel / 100)
+
+
+
+# Խնդիր 8
+
+# price = int(input("Price:"))
+# quantity = int(input("Quantity:"))
+
+# print(price * quantity)
+
+
+
+
+
+# Խնդիր 9
+
+# task = [
+#     "Python",
+#     "React",
+#     "Sport",
+#     "Read",
+#     "Sleep"
+# ]
+
+# for task in task:
+#     print(task)
+
+
+
+
+# Խնդիր 10
+
+sale = [12000, 15000, 8000, 22000]
+
+print(sum(sale))
