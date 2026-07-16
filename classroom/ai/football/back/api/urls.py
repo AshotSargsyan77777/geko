@@ -1,0 +1,13 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import ProductViewSet, OrderViewSet, NewsletterSubscriberViewSet, seed_database
+
+router = DefaultRouter()
+router.register('products', ProductViewSet, basename='product')
+router.register('orders', OrderViewSet, basename='order')
+router.register('subscribe', NewsletterSubscriberViewSet, basename='subscribe')
+
+urlpatterns = [
+    path('', include(router.urls)),
+    path('seed/', seed_database, name='seed-db'),  # Trigger via POST to seed products
+]

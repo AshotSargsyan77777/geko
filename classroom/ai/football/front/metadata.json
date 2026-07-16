@@ -1,0 +1,6 @@
+{
+  "name": "Barça Store",
+  "description": "The official-style premium Barça Store e-commerce experience for authentic and limited edition jerseys. Built with interactive catalogs, detail customization, shopping cart, and standard checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

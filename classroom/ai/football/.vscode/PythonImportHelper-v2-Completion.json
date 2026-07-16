@@ -1,0 +1,576 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "back.api.migrations.0001_initial",
+        "description": "back.api.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='NewsletterSubscriber',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('email', models.EmailField(max_length=254, unique=True)),",
+        "detail": "back.api.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ApiConfig",
+        "kind": 6,
+        "importPath": "back.api.apps",
+        "description": "back.api.apps",
+        "peekOfCode": "class ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'api'",
+        "detail": "back.api.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "back.api.models",
+        "description": "back.api.models",
+        "peekOfCode": "class Product(models.Model):\n    PRODUCT_TYPES = [\n        ('home', 'Home Kit'),\n        ('away', 'Away Kit'),\n        ('third', 'Third Kit'),\n        ('champions', 'Limited Edition'),\n    ]\n    id = models.CharField(max_length=100, primary_key=True)  # Matches React's IDs\n    name = models.CharField(max_length=200)\n    description = models.TextField()",
+        "detail": "back.api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "back.api.models",
+        "description": "back.api.models",
+        "peekOfCode": "class Order(models.Model):\n    PAYMENT_METHODS = [\n        ('credit-card', 'Credit Card'),\n        ('apple-pay', 'Apple Pay'),\n        ('google-pay', 'Google Pay'),\n        ('paypal', 'PayPal'),\n    ]\n    order_number = models.CharField(max_length=50, unique=True)\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)",
+        "detail": "back.api.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "back.api.models",
+        "description": "back.api.models",
+        "peekOfCode": "class OrderItem(models.Model):\n    order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE)\n    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True)\n    product_name_snapshot = models.CharField(max_length=250)  # Preserves name if product deleted\n    size = models.CharField(max_length=10)  # S, M, L, XL, XXL\n    quantity = models.PositiveIntegerField(default=1)\n    # Custom jersey prints attributes\n    custom_name = models.CharField(max_length=50, blank=True, null=True)\n    custom_number = models.CharField(max_length=10, blank=True, null=True)\n    price_at_purchase = models.DecimalField(max_digits=8, decimal_places=2)",
+        "detail": "back.api.models",
+        "documentation": {}
+    },
+    {
+        "label": "NewsletterSubscriber",
+        "kind": 6,
+        "importPath": "back.api.models",
+        "description": "back.api.models",
+        "peekOfCode": "class NewsletterSubscriber(models.Model):\n    email = models.EmailField(unique=True)\n    subscribed_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.email",
+        "detail": "back.api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "kind": 6,
+        "importPath": "back.api.serializers",
+        "description": "back.api.serializers",
+        "peekOfCode": "class ProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = '__all__'\nclass OrderItemSerializer(serializers.ModelSerializer):\n    product_id = serializers.CharField(source='product.id', read_only=True)\n    product_name = serializers.CharField(source='product.name', read_only=True)\n    class Meta:\n        model = OrderItem\n        fields = [",
+        "detail": "back.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemSerializer",
+        "kind": 6,
+        "importPath": "back.api.serializers",
+        "description": "back.api.serializers",
+        "peekOfCode": "class OrderItemSerializer(serializers.ModelSerializer):\n    product_id = serializers.CharField(source='product.id', read_only=True)\n    product_name = serializers.CharField(source='product.name', read_only=True)\n    class Meta:\n        model = OrderItem\n        fields = [\n            'id',\n            'product_id',\n            'product_name',\n            'product_name_snapshot',",
+        "detail": "back.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreateItemSerializer",
+        "kind": 6,
+        "importPath": "back.api.serializers",
+        "description": "back.api.serializers",
+        "peekOfCode": "class OrderCreateItemSerializer(serializers.Serializer):\n    \"\"\"\n    Used only during order creation payload parsing.\n    \"\"\"\n    product_id = serializers.CharField()\n    size = serializers.CharField(max_length=10)\n    quantity = serializers.IntegerField(min_value=1)\n    custom_name = serializers.CharField(max_length=50, required=False, allow_blank=True, allow_null=True)\n    custom_number = serializers.CharField(max_length=10, required=False, allow_blank=True, allow_null=True)\nclass OrderSerializer(serializers.ModelSerializer):",
+        "detail": "back.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializer",
+        "kind": 6,
+        "importPath": "back.api.serializers",
+        "description": "back.api.serializers",
+        "peekOfCode": "class OrderSerializer(serializers.ModelSerializer):\n    items = OrderItemSerializer(many=True, read_only=True)\n    raw_items = OrderCreateItemSerializer(many=True, write_only=True)  # Client passes items here during POST\n    class Meta:\n        model = Order\n        fields = [\n            'id',\n            'order_number',\n            'first_name',\n            'last_name',",
+        "detail": "back.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "NewsletterSubscriberSerializer",
+        "kind": 6,
+        "importPath": "back.api.serializers",
+        "description": "back.api.serializers",
+        "peekOfCode": "class NewsletterSubscriberSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = NewsletterSubscriber\n        fields = '__all__'",
+        "detail": "back.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "back.api.urls",
+        "description": "back.api.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('products', ProductViewSet, basename='product')\nrouter.register('orders', OrderViewSet, basename='order')\nrouter.register('subscribe', NewsletterSubscriberViewSet, basename='subscribe')\nurlpatterns = [\n    path('', include(router.urls)),\n    path('seed/', seed_database, name='seed-db'),  # Trigger via POST to seed products\n]",
+        "detail": "back.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "back.api.urls",
+        "description": "back.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n    path('seed/', seed_database, name='seed-db'),  # Trigger via POST to seed products\n]",
+        "detail": "back.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ProductViewSet",
+        "kind": 6,
+        "importPath": "back.api.views",
+        "description": "back.api.views",
+        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    ViewSet for viewing, editing, creating, and deleting Barca jerseys.\n    Supports filtering by type (home, away, third, champions) and search queries.\n    \"\"\"\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        kit_type = self.request.query_params.get('type', None)",
+        "detail": "back.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderViewSet",
+        "kind": 6,
+        "importPath": "back.api.views",
+        "description": "back.api.views",
+        "peekOfCode": "class OrderViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    ViewSet for handling placement of customized shirt orders.\n    \"\"\"\n    queryset = Order.objects.all().order_by('-created_at')\n    serializer_class = OrderSerializer\n    # In production, order viewing might require authentication, but we allow-all for demonstration\n    permission_classes = []\nclass NewsletterSubscriberViewSet(viewsets.ModelViewSet):\n    \"\"\"",
+        "detail": "back.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "NewsletterSubscriberViewSet",
+        "kind": 6,
+        "importPath": "back.api.views",
+        "description": "back.api.views",
+        "peekOfCode": "class NewsletterSubscriberViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    ViewSet to handle email newsletter subscriptions.\n    \"\"\"\n    queryset = NewsletterSubscriber.objects.all().order_by('-subscribed_at')\n    serializer_class = NewsletterSubscriberSerializer\n@api_view(['POST'])\ndef seed_database(request):\n    \"\"\"\n    Custom endpoint to populate initial official FC Barcelona kit data in SQLite.",
+        "detail": "back.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "seed_database",
+        "kind": 2,
+        "importPath": "back.api.views",
+        "description": "back.api.views",
+        "peekOfCode": "def seed_database(request):\n    \"\"\"\n    Custom endpoint to populate initial official FC Barcelona kit data in SQLite.\n    \"\"\"\n    initial_kits = [\n        {\n            \"id\": \"home-jersey\",\n            \"name\": \"FC Barcelona 2026/27 Home Jersey\",\n            \"description\": \"The classic Blaugrana colors return with a revolutionary visual gradient. Engineered with high-ventilation AeroWeave technology, this is the authentic match kit worn by Lamine Yamal and the squad at Spotify Camp Nou.\",\n            \"price\": 149.99,",
+        "detail": "back.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "back.barcastore_project.asgi",
+        "description": "back.barcastore_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "back.barcastore_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-fcb-barca-store-official-key-2026-squad-kits'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-fcb-barca-store-official-key-2026-squad-kits'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Third Party Apps",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Third Party Apps\n    'rest_framework',\n    'corsheaders',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'corsheaders.middleware.CorsMiddleware',  # Must be at the very top\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'barcastore_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'barcastore_project.wsgi.application'\n# Database\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\nAUTH_PASSWORD_VALIDATORS = [",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static and Media Files\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static and Media Files\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static and Media Files\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static and Media Files\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',\n    ],",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# CORS Configurations\nCORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',\n    ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.SessionAuthentication',",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True  # Permissive for local development setup\n# Django REST Framework configurations\nREST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',\n    ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.SessionAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n    ],",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "back.barcastore_project.settings",
+        "description": "back.barcastore_project.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',\n    ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.SessionAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n    ],\n}",
+        "detail": "back.barcastore_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "back.barcastore_project.urls",
+        "description": "back.barcastore_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  # Default Django admin\n    path('api/', include('api.urls')),  # Includes our custom Barça API routes\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "back.barcastore_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "back.barcastore_project.wsgi",
+        "description": "back.barcastore_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "back.barcastore_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "back.manage",
+        "description": "back.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'barcastore_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "back.manage",
+        "documentation": {}
+    }
+]
