@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.contanier{
+    width: 400px;
+    height: 300px;
+    background-color: #F48B26;
+
+}
+
+.sharq1{
+
+    display: flex;
+    flex-direction: row;
+    padding: 30px 65px;
+    gap: 50px;
+}
+.sharq2{
+
+    display: flex;
+    flex-direction: row;
+    padding: 50px 65px;
+    gap: 50px;
+}
+.box{
+    width: 55px;
+    aspect-ratio: 1/1;
+    background-color: #F5E3B5;
+}
