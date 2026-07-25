@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.contanier{
+    width: 400px;
+    height: 300px;
+    background-color: #A973A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+    
+
+}
+
+.box{
+    height: 160px;
+    width: 60px;
+    border: solid #fff;
+    border-width: 40px 10px 0 0 ;
+    
+    
+}
+
+
+.box:nth-child(2){
+    rotate: 180deg;
+}
+
+.box:nth-child(3){
+    transform: scaleX(-1);
+}
